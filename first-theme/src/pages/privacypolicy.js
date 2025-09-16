@@ -1,0 +1,14 @@
+import React from "react";
+
+
+const PrivacyPolicy=() =>{
+
+    return(
+        <h1>
+          PrivacyPolicy Page
+        </h1>
+
+    );
+};
+
+export default PrivacyPolicy;
