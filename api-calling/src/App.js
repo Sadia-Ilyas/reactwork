@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { GetPosts, RandomUser } from "./api";
 import PostCard from "./components/postcard";
 import UserCard from "./components/usercard";
+import { Route, Switch } from 'react-router-dom';
 import "./App.css";
 
 function App() {
