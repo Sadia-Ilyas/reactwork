@@ -5,3 +5,6 @@ Today I completd practice on the usestate, useeffect, functional components (bui
 # 13 / 14 Sep 2025
 Today I Practice to display API data in the cards. And also go thorugh these topics. (useContext , ES6 Varibles, Arrow fucntions,  array map, spread operator,  ES6 modules, Ternery Operator, Template Strings )
 # 15 Sep 2025
+Started First Theme setup
+# 16 Sep 2025
+Completed NavBar for first Theme
