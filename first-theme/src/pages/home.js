@@ -1,14 +1,18 @@
 import react from "react";
-import List from "../components/list";
+import List from "../components/Navbar/Navbar.jsx";
+import MainSection from "../components/MainSection/Mainsection.jsx";
+import Footer from "../components/Footer/Footer.jsx";
 
-const Home=() =>{
+const Home = () => {
+  return (
+    <div>
+      <List />
 
-    return(
-        <>
-         <List />
-        <h1>Home page</h1>
-        </>
-    );
+      <MainSection />
+
+      <Footer />
+    </div>
+  );
 };
 
 export default Home;

@@ -1,14 +1,13 @@
 import React from "react";
+import Navbar from "../components/Navbar/Navbar";
 
-
-const PrivacyPolicy=() =>{
-
-    return(
-        <h1>
-          PrivacyPolicy Page
-        </h1>
-
-    );
+const PrivacyPolicy = () => {
+  return (
+    <div>
+      <Navbar />
+      <h1> Privacy Policy Page</h1>
+    </div>
+  );
 };
 
 export default PrivacyPolicy;

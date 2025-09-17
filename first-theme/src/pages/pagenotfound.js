@@ -1,14 +1,11 @@
 import React from "react";
 
-
-const Error=() =>{
-
-    return(
-        <h1>
-  404...Sorry Page Not Found
-        </h1>
-
-    );
+const Error = () => {
+  return (
+    <div>
+      <h1>404...Sorry Page Not Found</h1>
+    </div>
+  );
 };
 
-export default Error ;
+export default Error;

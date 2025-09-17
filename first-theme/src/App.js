@@ -8,6 +8,7 @@ import Contact from "./pages/contact";
 import PrivacyPolicy from "./pages/privacypolicy";
 import Error from "./pages/pagenotfound";
 
+
 function App() {
   return (
     <div className="App">
@@ -19,6 +20,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/privacypolicy" element={<PrivacyPolicy />} />
           <Route  element={<Error />} />  
+
         </Routes>
       {/* </Router> */}
     </div>
