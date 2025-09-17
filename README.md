@@ -8,3 +8,5 @@ Today I Practice to display API data in the cards. And also go thorugh these top
 Started First Theme setup
 # 16 Sep 2025
 Completed NavBar for first Theme
+# 17 Sep 2025
+Completed Home page layout  for first Theme
