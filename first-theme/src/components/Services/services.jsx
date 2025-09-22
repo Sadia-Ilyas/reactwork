@@ -1,18 +1,69 @@
 // import react from "react";
-// import List from "../components/Navbar/Navbar.jsx";
-// import Service
-// import Footer from "../components/Footer/Footer.jsx";
+import "./servicesstyle.css";
 
-// const Home = () => {
-//   return (
-//     <div>
-//       <List />
+const ServicesCard = () => {
+  return (
+    <div className="card-container">
+      <div className="card">
+        <div className="card-img">
+          <img src="/assets/imgs/web.png" />
+        </div>
 
-//       <MainSection />
+        <div className="card__content">
+          <h3 className="card__title">Web Development</h3>
+          <p className="card__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+            consequuntur unde praesentium provident vel vitae culpa. Rerum
+            quisquam
+          </p>
+        </div>
+      </div>
 
-//       <Footer />
-//     </div>
-//   );
-// };
+      <div className="card">
+        <div className="card-img">
+          <img src="/assets/imgs/web.png" />
+        </div>
 
-// export default Home;
+        <div className="card__content">
+          <h3 className="card__title">Web Development</h3>
+          <p className="card__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+            consequuntur unde praesentium provident vel vitae culpa. Rerum
+            quisquam
+          </p>
+        </div>
+      </div>
+
+      <div className="card">
+        <div className="card-img">
+          <img src="/assets/imgs/web.png" />
+        </div>
+
+        <div className="card__content">
+          <h3 className="card__title">Web Development</h3>
+          <p className="card__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+            consequuntur unde praesentium provident vel vitae culpa. Rerum
+            quisquam
+          </p>
+        </div>
+      </div>
+      <div className="card">
+        <div className="card-img">
+          <img src="/assets/imgs/web.png" />
+        </div>
+
+        <div className="card__content">
+          <h3 className="card__title">Web Development</h3>
+          <p className="card__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+            consequuntur unde praesentium provident vel vitae culpa. Rerum
+            quisquam
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default ServicesCard;

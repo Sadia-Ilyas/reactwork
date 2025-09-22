@@ -1,0 +1,38 @@
+.about-all {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  height: max-content;
+  padding: 20px;
+  gap: 10px;
+}
+.info-box {
+  background: #f9f9f9; /* light background */
+  border: 1px solid #ddd; /* soft border */
+  border-radius: 10px; /* rounded corners */
+  padding: 15px 20px; /* spacing inside */
+  max-width: 400px; /* control width */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* soft shadow */
+  font-family: Arial, sans-serif;
+
+  margin: 0 auto;
+}
+
+.info-box p {
+  margin: 8px 0;
+  font-size: 15px;
+  color: #333;
+}
+
+.info-box strong {
+  color: #007bff; /* highlight labels in blue */
+}
+h2 {
+  text-align: center;
+  margin-top: 10px;
+}
+.form-dlt-btn {
+  background: red;
+  padding: 5px;
+  border: none;
+}

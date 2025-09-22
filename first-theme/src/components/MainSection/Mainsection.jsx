@@ -1,7 +1,7 @@
 // import react from "react";
 import { NavLink } from "react-router-dom";
 import "../MainSection/mainsectionstyle.css";
-// import mainsection from "../../../public/assets/imgs/mainsection.png";
+
 
 const MainSection = () => {
   return (

@@ -29,12 +29,14 @@
   color: var(--mainColor);
   transition: color 0.3s 0.1s ease-out;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 10px ;
+ 
 }
 
 .fancy-btn span {
   margin: 5px 10px;
 }
+
 
 .fancy-btn::before {
   position: absolute;
@@ -82,7 +84,7 @@
   }
   .content-box {
     text-align: center;
-    width: 90%;
+    width: 100%;
   }
   .btnbox .btn {
     margin: 0 auto;
