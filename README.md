@@ -10,3 +10,7 @@ Started First Theme setup
 Completed NavBar for first Theme
 # 17 Sep 2025
 Completed Home page layout  for first Theme
+# 18 /19 Sep 2025
+Explore Hooks.
+# 20 /21 Sep 2025
+Complete contact form using integration.
