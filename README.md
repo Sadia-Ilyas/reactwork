@@ -13,4 +13,7 @@ Completed Home page layout  for first Theme
 # 18 /19 Sep 2025
 Explore Hooks.
 # 20 /21 Sep 2025
-Complete contact form using integration.
+Complete contact form using (useForm ,Zod library).
+# 22 /23 Sep 2025
+Add Filter fucntionality in about page using (generaic fucntions).
+# 24 Sep 2025
