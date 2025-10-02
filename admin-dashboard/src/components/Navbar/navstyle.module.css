@@ -1,0 +1,41 @@
+.navbar {
+   
+    
+  background: #333;
+  padding: 12px;
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+
+}
+
+.btnBlue {
+  color: #fff;
+  background: #007bff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btnGreen {
+  color: #fff;
+  background: #28a745;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btnRed {
+  color: #fff;
+  background: #dc3545;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
