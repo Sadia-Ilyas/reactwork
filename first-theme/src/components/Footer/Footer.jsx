@@ -1,25 +1,25 @@
-import react from "react";
-// import List from "../components/List.jsx";
-import "./footerstyle.css";
+import React from "react";
+import styles from "./footerstyle.module.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
 const Footer = () => {
   return (
     <>
-      <footer>
-        <div className=" container container-flex">
-          <div className="footer-icons">
-            <i className="fab fa-facebook-f icons"></i>
-            <i className="fab fa-twitter icons"></i>
-            <i className="fab fa-instagram icons"></i>
-            <i className="fab fa-whatsapp icons"></i>
+      <footer className={styles.footer}>
+        <div className={`${styles.container} ${styles.containerFlex}`}>
+          <div className={styles.footerIcons}>
+            <i className="fab fa-facebook-f"></i>
+            <i className="fab fa-twitter"></i>
+            <i className="fab fa-instagram"></i>
+            <i className="fab fa-whatsapp"></i>
           </div>
-          <div className="line">
+
+          <div className={styles.line}>
             <hr />
             <hr />
           </div>
 
-          <div className="privacy">
+          <div className={styles.privacy}>
             <p>All Rights reserved &copy;</p>
             <p>Made by Sadia</p>
           </div>

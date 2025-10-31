@@ -1,42 +1,45 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import "./navbarstyle.css";
+import styles from "./navbarstyle.module.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header>
-      <div className="container container-flex">
+    <header className={styles.header}>
+      <div className={`${styles.container} ${styles.containerFlex}`}>
         {/* Logo - always left */}
-        <div className="logo-container">
-          <img src="/assets/imgs/logo.png" alt="logo" className="logo" />
+        <div className={styles.logoContainer}>
+          <img src="/assets/imgs/logo.png" alt="logo" className={styles.logo} />
         </div>
 
         {/* Nav Menu */}
-        <nav className={`nav ${menuOpen ? "active" : ""}`}>
-          <div className="list">
-            <NavLink to="/" className="list-item">Home</NavLink>
-            <NavLink to="/about" className="list-item">About</NavLink>
-            <NavLink to="/services" className="list-item">Services</NavLink>
-            <NavLink to="/contact" className="list-item">Contact</NavLink>
-            <NavLink to="/privacypolicy" className="list-item">Privacy Policy</NavLink>
+        <nav className={`${styles.nav} ${menuOpen ? styles.active : ""}`}>
+          <div className={styles.list}>
+            <NavLink to="/" className={styles.listItem}>Home</NavLink>
+            <NavLink to="/about" className={styles.listItem}>About</NavLink>
+            <NavLink to="/services" className={styles.listItem}>Services</NavLink>
+            <NavLink to="/contact" className={styles.listItem}>Contact</NavLink>
+            <NavLink to="/privacypolicy" className={styles.listItem}>Privacy Policy</NavLink>
           </div>
         </nav>
 
         {/* Right Section → burger + icons */}
-        <div className="right-section">
+        <div className={styles.rightSection}>
           {/* Burger Icon */}
-          <div className="menu-icon" onClick={() => setMenuOpen(!menuOpen)}>
+          <div
+            className={styles.menuIcon}
+            onClick={() => setMenuOpen(!menuOpen)}
+          >
             <i className={menuOpen ? "fas fa-times" : "fas fa-bars"}></i>
           </div>
 
           {/* Right Icons */}
-          <div className="right-icons">
-            <i className="fas fa-search icons"></i>
-            <i className="fas fa-user icons"></i>
-            <i className="fas fa-phone-alt icons"></i>
+          <div className={styles.rightIcons}>
+            <i className={`fas fa-search ${styles.icon}`}></i>
+            <i className={`fas fa-user ${styles.icon}`}></i>
+            <i className={`fas fa-phone-alt ${styles.icon}`}></i>
           </div>
         </div>
       </div>

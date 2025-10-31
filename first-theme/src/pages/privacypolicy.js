@@ -1,11 +1,12 @@
 import React from "react";
 import Navbar from "../components/Navbar/Navbar";
+import Privacy from "../components/PrivacyPolicy/PrivacyPolicy";
 
 const PrivacyPolicy = () => {
   return (
     <div>
       <Navbar />
-      <h1> Privacy Policy Page</h1>
+      <Privacy />
     </div>
   );
 };

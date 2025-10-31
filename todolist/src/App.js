@@ -1,10 +1,9 @@
-import "./App.css";
-import TodoList from "./Components/Todo.jsx";
+import Home from "./pages/Home";
 
 const App = () => {
   return (
     <div>
-      <TodoList />
+      <Home />
     </div>
   );
 };

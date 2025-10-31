@@ -1,13 +1,11 @@
-// import react from "react";
 import { NavLink } from "react-router-dom";
-import "../MainSection/mainsectionstyle.css";
-
+import styles from "../MainSection/mainsectionstyle.module.css";
 
 const MainSection = () => {
   return (
     <>
-      <div className="main-section">
-        <div className="content-box">
+      <div className={styles["main-section"]}>
+        <div className={styles["content-box"]}>
           <h1>Learning Made Easy</h1>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas
@@ -15,15 +13,15 @@ const MainSection = () => {
             explicabo sequi asperiores praesentium qui natus, omnis quod unde
             aperiam non debitis? Aliquam.
           </p>
-          <div className="btnbox">
-            <div className="btn">
-              <NavLink to="" className="fancy-btn">
+          <div className={styles.btnbox}>
+            <div className={styles.btn}>
+              <NavLink to="" className={styles["fancy-btn"]}>
                 <span>For More Info</span>
               </NavLink>
             </div>
           </div>
         </div>
-        <div className="img-container">
+        <div className={styles["img-container"]}>
           <img src="/assets/imgs/mainsection.png" alt="img" />
         </div>
       </div>

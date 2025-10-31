@@ -49,10 +49,12 @@ const TodoList = () => {
 
       <ul>
         {storeTodo.map((todo, index) => (
-          <li key={index}>
+          <li className={styles.todos} key={index}>
             {todo}
-            <button onClick={() => handleUpdate(index)}>Update</button>
-            <button onClick={() => handleDelete(index)}>Delete</button>
+            <div className={styles.btnContainer}>
+              <button onClick={() => handleUpdate(index)}>Update</button>
+              <button onClick={() => handleDelete(index)}>Delete</button>
+            </div>
           </li>
         ))}
       </ul>

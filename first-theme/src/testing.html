@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FileReader Console Test</title>
+</head>
+<body>
+  <h2>FileReader Console Example</h2>
+
+  <!-- File input -->
+  <input type="file" id="fileInput" />
+
+  <script>
+    const fileInput = document.getElementById("fileInput");
+
+    fileInput.addEventListener("change", (e) => {
+      const file = e.target.files[0];
+      if (!file) return;
+
+      const reader = new FileReader();
+
+      reader.onloadend = () => {
+        console.log("File content as string (Base64):");
+        console.log(reader.result); // 👈 yaha string print hogi
+        console.log("Type of result:", typeof reader.result); // 👈 type bhi check ho jayegi
+      };
+
+      reader.readAsDataURL(file);
+    });
+  </script>
+</body>
+</html>

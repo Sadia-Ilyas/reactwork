@@ -1,0 +1,49 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  background-color: var(--mainColor);
+  width: 100%;
+  padding: 10px 0;
+}
+
+/* wrapper flex layout */
+.containerFlex {
+  display: flex;
+  justify-content: space-evenly; /* 3 divs evenly spaced */
+  align-items: center;
+}
+
+.footerIcons {
+  display: flex;
+  gap: 1.5em; /* icons ka gap */
+  
+ color:var(--whiteColor);
+  
+ 
+}
+
+
+.line {
+  width: 30%;
+
+}
+hr{
+    margin-top: 5px
+}
+
+.privacy {
+  color: white;
+  text-align: center;
+}
+
+/* media queries */
+@media screen and (max-width: 768px) {
+  .containerFlex {
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  .line {
+    width: 60%;
+  }
+}
