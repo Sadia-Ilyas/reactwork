@@ -9,7 +9,7 @@ const socialLinks = [
   { icon: Linkedin, href: '#', label: 'LinkedIn' },
   { icon: Mail, href: '#', label: 'Email' },
 ];
-
+//footer
 const footerLinks = {
   product: [
     { label: 'Features', href: '#' },
