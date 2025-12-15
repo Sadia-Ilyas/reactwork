@@ -1,0 +1,13 @@
+{
+  "employees": [
+    { "id": 1, "name": "John Doe", "age": 30, "department": "Engineering" },
+    { "id": 2, "name": "Jane Smith", "age": 28, "department": "Marketing" },
+    { "id": 3, "name": "Bob Johnson", "age": 35, "department": "HR" }
+  ],
+  "products": [
+    { "id": 1, "name": "Laptop", "price": 1000 },
+    { "id": 2, "name": "Phone", "price": 500 },
+    { "id": 3, "name": "Tablet", "price": 800 },
+     { "id": 3, "name": "Headphone", "price": 1000 }
+  ]
+}

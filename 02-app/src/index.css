@@ -5,19 +5,20 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  display: flex;
-  justify-content: center;
- align-items: center;
-  height: 100vh;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+/* Optional: for all main app container */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px; /* spacing between todo-container and card */
+  padding: 20px;
+  min-height: 100vh;
+  background-color: #f0f0f0;
 }
 
 .todo-container {
-  
   width: 400px;
   padding: 20px;
   background-color: aqua;
@@ -32,11 +33,21 @@ code {
 .todo-text {
   margin-left: 10px;
 }
-.button{
+.button {
   width: 100%;
   padding: 10px;
   border-radius: 10px;
   border: none;
   margin-top: 10px;
   cursor: pointer;
+}
+
+/* Card CSS independent from todo-container */
+.card {
+  width: 350px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
